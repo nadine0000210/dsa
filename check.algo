@@ -1,0 +1,19 @@
+ALGORITHM algorithm_name
+VAR
+    i,j,k:integer :=0
+    vowels := [a,e,i,o,u,A,E,I,O,U]
+    s :=CHAR
+BEGIN 
+    VAR
+    char:=s[i]
+    FOR i FROM 0 TO s.length-1 DO
+        
+        print(s.length) //print the sentence length
+        IF char = ' ' THEN
+    j:=j+1 //words counter
+    print (j) // print the words counter
+       IF char = vowels THEN // if there are vowels in the sentence
+    k:=k+1 //vowels counter
+    print(k) // print the vowels counter
+    END_FOR    
+END
